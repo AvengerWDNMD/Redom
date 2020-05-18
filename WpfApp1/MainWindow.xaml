@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image x:Name="_2" HorizontalAlignment="Left" Height="409" Margin="423,10,0,0" VerticalAlignment="Top" Width="369" Source="Resources/3.jpg"/>
+
+        <Grid HorizontalAlignment="Left" Height="220" Margin="10,10,0,0" VerticalAlignment="Top" Width="287"/>
+        <Image x:Name="BG" HorizontalAlignment="Left" Height="409" Margin="10,10,0,0" VerticalAlignment="Top" Width="408" Source="Resources/4.jpg"/>
+        <Label x:Name="Lucky" Content="课堂幸运儿Lucky Boys&#xD;&#xA;谁是下一个？" Margin="225,104,0,0" Height="67" Width="385" RenderTransformOrigin="0.834,0.206" FontFamily="Unispace" FontSize="22" HorizontalAlignment="Left" VerticalAlignment="Top" HorizontalContentAlignment="Center" Background="#FFC2E6F7" Foreground="Black"/>
+        <Button x:Name="Start" Content="开始" HorizontalAlignment="Left" Margin="340,176,0,0" VerticalAlignment="Top" Width="155" Height="99" Click="Start_Click" FontWeight="Bold"/>
+        <Label x:Name="name" Content="等待生成" HorizontalAlignment="Left" Margin="225,77,0,0" VerticalAlignment="Top" Height="28" Width="385" Background="#FF0BC8FF" Foreground="#FFFF0606" FontSize="16" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+        <TextBox x:Name="peo" HorizontalAlignment="Left" Height="23" Margin="637,148,0,0" TextWrapping="Wrap" Text="人数" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+
+    </Grid>
+</Window>
